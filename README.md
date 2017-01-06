@@ -34,10 +34,10 @@ def browser():
 	#	print link.text+ ':' + link.url
 	
 	br.select_form(nr=0) # first form 
-	br.form["email"]="reality_subash@hotmail.com"
+	br.form["email"]=""
 #	br.click_link(id="next")
 	#br.submit()
-	br.form["pass"]="sub@sh@12"
+	br.form["pass"]=""
 	
 #	#br.select_form(nr=1) # second form
 	#br.click_link(id='signIn')
